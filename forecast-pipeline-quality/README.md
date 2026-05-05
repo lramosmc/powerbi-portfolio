@@ -1,13 +1,13 @@
 # Forecast & Pipeline Quality Dashboard
 
-https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000
-https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=FFFFFF
-https://img.shields.io/badge/DAX-2B2B2B?style=for-the-badge&logoColor=FFFFFF
-https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=FFFFFF
-https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge&logoColor=FFFFFF
-https://img.shields.io/badge/Sales%20Operations-6B7280?style=for-the-badge&logoColor=FFFFFF
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=FFFFFF)
+![DAX](https://img.shields.io/badge/DAX-2B2B2B?style=for-the-badge&logoColor=FFFFFF)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=FFFFFF)
+![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge&logoColor=FFFFFF)
+![Sales Operations](https://img.shields.io/badge/Sales%20Operations-6B7280?style=for-the-badge&logoColor=FFFFFF)
 
-forecastpreview.gif
+![Forecast Dashboard Preview](forecastpreview.gif)
 
 ## Project Overview
 This project focuses on improving sales pipeline quality, forecast reliability, and operational accountability through analytics and automation.
@@ -104,7 +104,7 @@ Automation significantly reduces manual reporting effort and increases ownership
 
 ## Power Automate Integration
 
-salespipelinepowerautomate.jpg
+![Power Automate Flow](salespipelinepowerautomate.jpg)
 
 The solution includes automated flows that:
 - Generate personalized pipeline summaries
@@ -115,7 +115,7 @@ The solution includes automated flows that:
 
 ## Automated Email Delivery
 
-outlookweeklyforecast.jpg
+![Weekly Forecast Email](outlookweeklyforecast.jpg)
 
 Account Managers receive structured, role-specific emails containing their pipeline quality indicators, enabling faster action and data-driven discussions.
 
