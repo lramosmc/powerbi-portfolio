@@ -1,57 +1,59 @@
 # Forecast & Pipeline Quality Dashboard
 
+https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000
+https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=FFFFFF
+https://img.shields.io/badge/DAX-2B2B2B?style=for-the-badge&logoColor=FFFFFF
+https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=FFFFFF
+https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge&logoColor=FFFFFF
+https://img.shields.io/badge/Sales%20Operations-6B7280?style=for-the-badge&logoColor=FFFFFF
+
+forecastpreview.gif
+
 ## Project Overview
-This project focuses on improving **sales pipeline quality, forecast reliability, and operational accountability** through analytics and automation.
+This project focuses on improving sales pipeline quality, forecast reliability, and operational accountability through analytics and automation.
 
-The dashboard was built based on a deep understanding of Sales Operations processes and common pipeline management challenges.  
-Its goal is not only to monitor pipeline health, but to actively drive better behaviors across the sales organization.
+The dashboard was built based on a deep understanding of Sales Operations processes and common challenges related to pipeline hygiene, qualification, and forecast accuracy.
 
-In addition to Power BI visualizations, this project integrates **Power Automate** to distribute personalized, actionable insights directly to Account Managers on a recurring basis.
+In addition to Power BI analytics, the solution integrates Power Automate to distribute personalized, actionable insights directly to Account Managers on a recurring basis.
 
 ---
 
 ## Business Problem
-The sales pipeline presented several issues that negatively impacted forecast accuracy and operational efficiency:
+The sales pipeline presented multiple issues that negatively impacted forecast accuracy and operational efficiency:
 - Inactive opportunities with no recent activity
 - Opportunities aging beyond healthy sales cycles
-- Poorly qualified deals in early pipeline stages
+- Poor qualification in early pipeline stages
 - Forecast category misalignment (Pipeline vs Best Case / Commit)
 - Unrealistic or outdated close dates
 
-These issues increased manual effort for Sales Operations and reduced trust in forecast numbers.
+These issues reduced trust in the pipeline and increased manual intervention by Sales Operations teams.
 
 ---
 
 ## Solution Approach
-The dashboard consolidates pipeline data from multiple enterprise systems into a single, trusted analytical layer.  
-It introduces **pipeline quality KPIs** designed to surface risks early and support data-driven conversations between Sales Operations and Account Managers.
+The solution consolidates pipeline data from multiple enterprise systems into a single analytical model and introduces pipeline quality KPIs designed to surface risks early.
 
-The solution combines:
-- Operational analytics
-- Executive-level visibility
-- Automated communication
-- Behavioral reinforcement through regular review cycles
+The dashboard enables structured, data-driven conversations between Sales Operations and Account Managers, reinforcing accountability and continuous pipeline maintenance.
 
 ---
 
 ## KPI and Analytical Scope
 
 ### Pipeline Overview
-- Total Pipeline value (active and inactive)
-- Total number of opportunities
+- Total pipeline value (active and inactive)
+- Number of opportunities
 - Average deal size
 
 ### Pipeline Quality Indicators
 - Inactive opportunities requiring follow-up
 - Opportunities aging beyond 90 days  
-  > Reaching 90 days does not necessarily mean the deal should be recreated.  
-  > Some negotiations naturally take longer; the key factor is keeping activities updated.
-- Opportunities in early stages requiring further qualification
-- Opportunities flagged for forecast adjustment due to misclassification or close date issues
+  Reaching 90 days does not necessarily mean recreating the opportunity. Some deals require longer cycles; the critical factor is maintaining up-to-date activities.
+- Opportunities in early stages requiring better qualification
+- Opportunities flagged for forecast adjustment due to misclassification or close-date misalignment
 
 ### Revenue Quality Analysis
 - MRR from inactive opportunities
-- MRR associated with aged opportunities
+- MRR from opportunities aging beyond 90 days
 - MRR requiring qualification
 - MRR needing forecast adjustment
 
@@ -69,74 +71,72 @@ The solution combines:
 ## Forecast View
 The dashboard includes forward-looking views to support planning and leadership alignment:
 - Sales Commit MRR for the current month and next five months
-- Expected Churn Commit MRR for the same horizon
+- Expected Churn Commit MRR for the same period
 
 ---
 
 ## Pipeline Growth Analysis
 - Weekly MRR added to the pipeline
 - Number of opportunities created per week
-- Trend visibility to support volume and velocity analysis
+- Volume and velocity trend analysis
 
 ---
 
 ## Data Architecture and Sources
-This project was built using an enterprise-grade data architecture, integrating:
-- A centralized Data Warehouse
+This project was built using an enterprise-grade data architecture integrating:
+- Centralized Data Warehouse
 - SharePoint-hosted operational and sensitive datasets
 - Direct connection to the official CRM system
 
-All data is modeled using a **star schema**, with clear separation between fact tables and dimensions, ensuring:
-- Performance
-- Consistency of metrics
-- Scalability of the data model
+All data is modeled using a star schema, ensuring performance, consistency, and scalability.
 
 ---
 
 ## Refresh and Automation
 - Automatic daily data refresh
-- Always-on operational availability
+- Continuous operational availability
 - Power Automate workflows triggered on a recurring schedule
 - Individualized distribution of insights to each Account Manager
 
-Automation reduces manual reporting effort and increases ownership of pipeline data.
+Automation significantly reduces manual reporting effort and increases ownership of pipeline data.
 
 ---
 
 ## Power Automate Integration
-The solution includes automated workflows that:
-- Generate personalized pipeline summaries
-- Send formatted emails to the appropriate recipients
-- Reinforce accountability and follow-up actions
 
-Animated previews included in this repository demonstrate:
-- Dashboard interaction
-- Power Automate flow execution
-- Final email format delivered to end users
+salespipelinepowerautomate.jpg
+
+The solution includes automated flows that:
+- Generate personalized pipeline summaries
+- Deliver formatted insights to the correct recipients
+- Reinforce follow-up and pipeline ownership
+
+---
+
+## Automated Email Delivery
+
+outlookweeklyforecast.jpg
+
+Account Managers receive structured, role-specific emails containing their pipeline quality indicators, enabling faster action and data-driven discussions.
 
 ---
 
 ## Data Volume and PBIX Availability
-Due to:
-- Large data volumes
-- Multiple enterprise data sources
-- Corporate security and governance constraints
-
-PBIX files are not shared in this repository.
+Due to large data volumes, multiple enterprise data sources, and corporate governance constraints, PBIX files are not shared in this repository.
 
 Instead, the project is demonstrated through:
-- Animated GIFs of the dashboard in operation
-- Visual walkthroughs of Power Automate workflows
+- Animated GIFs showing dashboard interaction
+- Visual walkthroughs of Power Automate flows
 - Examples of automated email delivery
 
-This approach ensures a realistic representation of corporate BI scenarios without compromising performance or data privacy.
+This approach reflects realistic corporate BI environments without compromising data privacy or performance.
 
 ---
 
 ## Data Privacy
 - All data shown is public, simulated, or fully anonymized
 - Customer and segment names are replaced with generic identifiers
-- No real company, customer, or confidential data is exposed
+- No real company, customer, or confidential information is disclosed
 - This project is not connected to any production environment
 
 ---
