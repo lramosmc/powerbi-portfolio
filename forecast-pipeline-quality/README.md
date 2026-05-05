@@ -6,6 +6,8 @@
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=FFFFFF)
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge&logoColor=FFFFFF)
 ![Sales Operations](https://img.shields.io/badge/Sales%20Operations-6B7280?style=for-the-badge&logoColor=FFFFFF)
+![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=FFFFFF)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=FFFFFF)
 
 ![Forecast Dashboard Preview](forecastpreview.gif)
 
