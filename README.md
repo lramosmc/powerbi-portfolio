@@ -1,11 +1,11 @@
 # Power BI Portfolio
 
-https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000
-https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=FFFFFF
-https://img.shields.io/badge/DAX-2B2B2B?style=for-the-badge&logoColor=FFFFFF
-https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=FFFFFF
-https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge&logoColor=FFFFFF
-https://img.shields.io/badge/Sales%20Operations-6B7280?style=for-the-badge&logoColor=FFFFFF
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=FFFFFF)
+![DAX](https://img.shields.io/badge/DAX-2B2B2B?style=for-the-badge&logoColor=FFFFFF)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=FFFFFF)
+![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge&logoColor=FFFFFF)
+![Sales Operations](https://img.shields.io/badge/Sales%20Operations-6B7280?style=for-the-badge&logoColor=FFFFFF)
 
 This repository presents a curated portfolio of Power BI projects focused on solving real business problems through analytics, data modeling, and automation.
 
