@@ -1,5 +1,14 @@
 # Power BI Portfolio
 
+
+![Power BI](https://img.shields.io/badge/Power%20BI-FAF8F6?style=for-the-badge&logo=powerbi&logoColor=F2C811)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-4B4B4B?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
+![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-374151?style=for-the-badge)
+![Sales Ops](https://img.shields.io/badge/Sales%20Ops-6B7280?style=for-the-badge)
+
+
 This repository presents a curated portfolio of Power BI projects focused on solving real business problems through analytics, data modeling, and automation.
 
 The projects reflect scenarios commonly found in corporate environments, including large data volumes, multi-source architectures, automated refresh cycles, and report distribution workflows.
