@@ -126,7 +126,7 @@ Power Automate is used to:
 
 ## Automated Email Delivery
 
-![Automated Sales Performance Email](outlooksalesperformancedashboard.jpg)
+![Automated Sales Performance Email](outlooksalesperformancedashboard.png)
 
 Sales performance results are delivered automatically to end users in a structured and readable email format, removing the need for manual follow-up or report navigation.
 
